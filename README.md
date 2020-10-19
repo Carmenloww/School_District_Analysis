@@ -21,7 +21,8 @@ Using bulleted lists and images of DataFrames as support, address the following 
 
 The average math score is 79.0 and reading score 81.9.
 The passing math percentage of 75 and passing reading percentage of 86 and overall passing percentage is 65%.
-![Before district summary](http://localhost:8888/view/School_District_Analysis/Resources/Before%20district%20summary.png)
+
+![Before district summary](./Resources/Before_district_summary.png)
 After the clean up,the average math score is 78.9 and reading score 81.9.
 The passing math percentage of 73.9 and passing reading percentage of 84.7 and overall passing percentage of 64.1.
 ![After district summary](http://localhost:8888/view/School_District_Analysis/Resources/After%20district%20summary.png)
@@ -39,11 +40,11 @@ By replacing the ninth graders’ math and reading scores, this affect Thomas Hi
 
 - How does replacing the ninth-grade scores affect the following:
     
-    - Math and reading scores by grade
+    - Math and reading scores by grade:
    
 By replacing the ninth-grade math and reading scores with "nan", this means their score is 0 and the 9th Grade failed. The Student count got redeuced from 1635 to 1174.
    
-    - Scores by school spending
+   - Scores by school spending:
     
 The spending range per student for Thomas High School was $630-644. After the clean up, the results stayed the same.
   
@@ -53,14 +54,14 @@ The Student count
 After:
 ![After school spending](http://localhost:8888/view/School_District_Analysis/Resources/After%20school%20summary.png)
 
-    - Scores by school size   
+   - Scores by school size   
 By removing the ninth-graders, the school size went from 1635 to 1174. The average math score, the percentage of passing math, percentage of passing reading and percentage of  of overall passing was reduced.
 
 ![Before school size](http://localhost:8888/view/School_District_Analysis/Resources/Before%20school%20size.png)
 
 ![After school size](http://localhost:8888/view/School_District_Analysis/Resources/After%20school%20size.png)
 
-    - Scores by school type.
+   - Scores by school type:
 Thomas High School type is Charter school. 
 The average percentage of 83.5 and reading score 83.9.
 The passing math percentage of 94 and passing reading percentage of 97 and overall passing percentage of 90%.
